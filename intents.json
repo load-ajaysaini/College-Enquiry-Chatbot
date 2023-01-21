@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for visiting! How Can I Help You"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "eligibility LLB",
+      "patterns": [
+        "What is the eligibility criteria to take admission in LLB IN GRAPHIC ERA HILL UNIVERSITY?",
+        "What is the eligibility criteria to take admission in B.B.A. LL.B (HONS)?"
+      ],
+      "responses": [
+        "The eligibility criteria for taking admission is 10+2 in any  stream with minimum 50% along with Merit prepared on the basis of qualifying exams and interviews."
+      ]
+    },
+
+    {
+      "tag": "eligibility Btech",
+      "patterns": [
+        "What is the eligibility criteria to take admission in B.Tech. CSE IN GRAPHIC ERA HILL UNIVERSITY?",
+        "What is the eligibility criteria to take admission in B.Tech. Computer Science Cloud Computing ?",
+        "What is the eligibility criteria to take admission in B.Tech. Computer Science Cyber Sceurity ?",
+        "What is the eligibility criteria to take admission in B.Tech. Computer Science ML and AI ?"
+      ],
+      "responses": [
+        "The eligibility criteria for taking admission is 10+2 in PCM stream with minimum 50% along with Merit prepared on the basis of (10+2)% / JEE Main Score."
+      ]
+    },
+
+    {
+      "tag": "eligibility JMC",
+      "patterns": [
+        "What is the eligibility criteria to take admission in B.A. IN JOURNALISM AND MASS COMMUNICATION IN GRAPHIC ERA HILL UNIVERSITY?",
+        "What is the eligibility criteria to take admission in BJMC?"
+      ],
+      "responses": [
+        "The eligibility criteria for taking admission) is 10+2 in any  stream with minimum 50% along with Merit prepared on the basis of qualifying exams and interviews."
+      ]
+    },
+
+    {
+      "tag": "eligibility MBA",
+      "patterns": [
+        "What is the eligibility criteria to take admission in MBA IN GRAPHIC ERA HILL UNIVERSITY?",
+        "What is the eligibility criteria to take admission in MBA?"
+      ],
+      "responses": [
+        "Pass with 50% aggregate marks in Bachelor’s degree (any discipline) or equivalent subject to qualifying: CAT/MAT/XAT/NMAT/CMAT*"
+      ]
+    },
+
+    {
+      "tag": "eligibility BCOM",
+      "patterns": [
+        "What is the eligibility criteria to take admission in B. COM IN GRAPHIC ERA HILL UNIVERSITY?",
+        "What is the eligibility criteria to take admission in B.COM.?"
+      ],
+      "responses": [
+        "The eligibility criteria for taking admission is 10+2 in any  stream with minimum 50% along with Merit prepared on the basis of qualifying exams and interviews."
+      ]
+    },
+
+    {
+      "tag": "Transport",
+      "patterns": [
+        "What is the facility of tranport for day scholars?",
+        "What are transport facility for localites?",
+        "What are the tranport facilities?",
+        ""
+      ],
+      "responses": [
+        "College buses pickup and drop day-scholars from specified locations in Dehradun city and en-route, on payment of a nominal fee. City bus facility is also available from college gate to city from morning 7.00 a.m. to evening 9.00 p.m. at frequent intervals of 15 minutes."
+      ]
+    },
+    {
+      "tag": "Hostel",
+      "patterns": [
+        "What are hostel facilities for students of outstation?",
+        "What are hostel facilities for students?"
+      ],
+      "responses": [
+        " Separate hostels are provided for girls and boys at GEHU. Students are provided with adequate facilities to make them feel at home. Their stay in the hostel enables them to imbibe a different lifestyle and involve themselves in activities including yoga, meditation, sports, music etc., suiting individuals taste and preferences. The hostels have the capacity to comfortably accommodate over 1500 students. Every effort is made that the hostellers get a homely ambience by providing them a home away from home."
+
+      ]
+    }
+  ]
+}
